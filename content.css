@@ -1,0 +1,115 @@
+@import url(https://fonts.google.com/specimen/Source+Sans+Pro);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body, ul, p, li, h1, h2, h3, h4, h4{
+	margin: 0px;
+	padding: 0px;
+}
+
+.content {
+    background-color: white;
+    height: 745px;
+    position: relative;
+}
+
+.content h2 {
+    position: absolute;
+    left: 578px;
+    top: 79px;
+    font-size: 50px;
+}
+
+.pics {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    left: 210px;
+    top: 238px;
+}
+
+.pics div {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 30px;
+}
+ 
+.p1 {
+    position: absolute;
+    top: 469px;
+    left: 159px;
+}
+
+.p2 {
+    position: absolute;
+    top: 469px;
+    left: 582px; 
+}
+
+.p3 {
+    position: absolute;
+    top: 469px;
+    right: 295px;
+}
+
+.content a:link, .content a:visited {
+    text-decoration: none;
+    color: #3F3F3F;
+}
+
+.content a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.background2 button {
+    width: 224px;
+    height: 81px;
+    background-color: inherit;
+    border: 2px solid #3E3E3E;
+    text-align: right;
+    font-size: 25px;
+}
+
+.background2 button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.background2 .apple {
+    position: absolute;
+    top: 592px;
+    left: 466px;
+    border-radius: 100px;   
+}
+
+.background2 .google {
+    position: absolute;
+    top: 592px;
+    left: 750px;
+    border-radius: 12px;
+}
+
+.btnlogo1 {
+    position: absolute;
+    top: 19px;
+    left: 25px;
+}
+
+.btnlogo2 {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}

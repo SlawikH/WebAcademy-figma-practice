@@ -1,0 +1,153 @@
+@import url(https://fonts.google.com/specimen/Source+Sans+Pro);
+
+.body {
+    background-color: #F2F2F2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.header {  
+    position: relative;
+    margin: 10px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu {
+    width: 100%;
+    min-height: 50px;
+}
+
+.logo1 {
+    position:absolute ;
+    left: 78px;
+    top: 10px;
+}
+
+.nav {
+    margin: 0;
+    background-color: inherit;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.nav li {
+    padding-left: 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+.nav a:link , nav a:visited {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.nav a:hover {
+    color: rgb(81, 81, 81);
+    background-color: white;
+    line-height: 30px;
+}
+
+
+.background {
+    margin-top: 10px;
+    padding: 0px;
+    background-color: #FEDE60;
+    width: 100%;
+    height: 858px;
+    position: relative;
+}
+
+.iphone {
+    width: 616px;
+    height: 855px;
+    position: absolute;
+    bottom: 0;
+    right: 78px;
+}
+
+.background h2 {
+    position: absolute;
+    top: 185px;
+    left: 84px;
+    font-size: 35px;
+}
+
+.line {
+    position: absolute;
+    top: 289px;
+    left: 80px;
+    border: 1px solid black;
+    height: 55px;
+    background-color: black;
+}
+
+.background p {
+    position: absolute;
+    top: 330px;
+    left: 84px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: inherit;
+}
+
+.background button {
+    width: 224px;
+    height: 81px;
+    background-color: inherit;
+    border: 2px solid #3E3E3E;
+    text-align: right;
+    font-size: 25px;
+}
+
+.background button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #fae076;
+}
+
+.apple {
+    position: absolute;
+    top: 420px;
+    left: 84px;
+    border-radius: 100px;   
+}
+
+.google {
+    position: absolute;
+    top: 420px;
+    left: 368px;
+    border-radius: 12px;
+}
+
+.btnlogo1 {
+    position: absolute;
+    top: 19px;
+    left: 25px;
+}
+
+.btnlogo2 {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+@import url(https://fonts.google.com/specimen/Source+Sans+Pro);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content2 {
+    height: 687px;
+    background-color: #F8F8F8;
+    position: relative;    
+}
+
+/* .content2 h2 {
+    z-index: 2;
+} */
+
+.iphones {
+    position: absolute;
+    left: 547px;
+    top: 0;
+}
+
+/* .line2 {
+    position: absolute;
+    background-color: #FFCB00;
+    height: 100%;
+    width: 186px;
+    z-index: 1;
+    left: 187px;
+} */
+
+.content2 h2 {
+    position: absolute;
+    left: 76px;
+    top: 147px;
+    font-size: 40px;
+}
+
+.content2 h3 {
+    position: absolute;
+    left: 76px;
+    top: 202px;
+    font-size: 30px;
+}
+
+.content2 p {
+    position: absolute;
+    left: 75px;
+    top: 284px;
+    font-size: 22px;
+    width: 619px;
+    text-align: justify;
+}
+
+.footer {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.form p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    width: 500px;
+    height: 70px;
+    padding-left: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 357px;
+    top: 225px;
+}
+
+.form button {
+    position: absolute;
+    top: 225px;
+    right: 357px;
+    width: 173px;
+    height: 70px;
+    font-size: 24px;
+    background-color: #FCEB6F;
+    border: none;    
+}
+
+.form button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #fae076;
+}
+
+.form a:link, .form a:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom {
+    position: relative;
+    margin-top: 250px;
+    height: 252px;
+    background-color: #343434;
+}
+
+.bottom img {
+    position: absolute;
+    top: 84px;
+    left: 684px;
+}
+
+.menu2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 470px;
+    top: 144px;
+    font-size: 20px;
+}
+
+.menu2 li {
+    padding-left: 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+.menu2 a:link, .menu2 a:visited {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.copyright {
+    position: absolute;
+    top: 204px;
+    left: 520px;
+    font-size: 20px;
+    color: #8F8F8F;
+}
